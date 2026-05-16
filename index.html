@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport"
+  content="width=device-width, initial-scale=1.0">
+
+  <title>Quiz Master</title>
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+
+  <nav>
+
+    <div class="logo">
+      Quiz Master
+    </div>
+
+    <div class="nav-buttons">
+
+      <button onclick="goHome()">
+        Home
+      </button>
+
+      <button onclick="showSection('services')">
+        Services
+      </button>
+
+      <button onclick="openResults()">
+        Results
+      </button>
+
+      <button onclick="showSection('feedbackSection')">
+        Feedback
+      </button>
+
+      <button onclick="showSection('aboutSection')">
+        About
+      </button>
+
+      <button onclick="showSection('contactSection')">
+        Contact Us
+      </button>
+
+      <button onclick="openLoginPage()">
+        Login
+      </button>
+
+      <button onclick="openSignupPage()">
+        Signup
+      </button>
+
+    </div>
+
+  </nav>
+
+
+  <!-- HERO -->
+
+  <section class="hero">
+
+    <div class="hero-content">
+
+      <h1>
+        Welcome To Quiz Master
+      </h1>
+
+      <p>
+        Play different quizzes and test your knowledge.
+      </p>
+
+    </div>
+
+  </section>
+
+
+  <!-- SERVICES -->
+
+  <div class="info-section hidden"
+  id="services">
+
+    <h1>Quiz Categories</h1>
+
+    <div class="service-grid">
+
+      <div class="service-card">
+
+        <h2>College Quiz</h2>
+
+        <button onclick="selectQuiz('college')">
+          Start Quiz
+        </button>
+
+      </div>
+
+      <div class="service-card">
+
+        <h2>Movies Quiz</h2>
+
+        <button onclick="selectQuiz('movies')">
+          Start Quiz
+        </button>
+
+      </div>
+
+      <div class="service-card">
+
+        <h2>GK Quiz</h2>
+
+        <button onclick="selectQuiz('gk')">
+          Start Quiz
+        </button>
+
+      </div>
+
+      <div class="service-card">
+
+        <h2>Sports Quiz</h2>
+
+        <button onclick="selectQuiz('sports')">
+          Start Quiz
+        </button>
+
+      </div>
+
+      <div class="service-card">
+
+        <h2>Technology Quiz</h2>
+
+        <button onclick="selectQuiz('technology')">
+          Start Quiz
+        </button>
+
+      </div>
+
+      <div class="service-card">
+
+        <h2>Science Quiz</h2>
+
+        <button onclick="selectQuiz('science')">
+          Start Quiz
+        </button>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <!-- RESULTS -->
+
+  <div class="info-section hidden" id="resultSection">
+
+    <h1>Recent Results</h1>
+
+  </div>
+
+
+  <!-- FEEDBACK -->
+
+  <div class="info-section hidden" id="feedbackSection">
+
+    <h1>Feedback</h1>
+    
+    <p>
+      Your feedback is very important to us.
+      At Quiz Master, we always try to improve our website and provide the best quiz experience for our users.
+    </p>
+    
+    <br>
+    
+    <h3 style="color:#ff9800;">Why Your Feedback Matters?</h3>
+    
+    <ul style="text-align:left; line-height:2; margin-top:15px;">
+    
+      <li>✔ Helps us improve website performance</li>
+    
+      <li>✔ Helps us add better quiz categories</li>
+    
+      <li>✔ Improves user experience</li>
+    
+      <li>✔ Fixes bugs and technical issues</li>
+    
+      <li>✔ Makes Quiz Master more fun and interactive</li>
+    
+    </ul>
+    
+    <br>
+    
+    <h3 style="color:#ff9800;">Share Your Thoughts</h3>
+    
+    <p>
+      Tell us what you liked, what needs improvement, or what new features you want to see in Quiz Master.
+    </p>
+    
+    <p>
+      We appreciate every suggestion and review from our users.
+    </p>
+    
+    <br>
+    
+    <textarea placeholder="Write your feedback here..."></textarea>
+    
+    <br><br>
+    
+    <button>
+      Submit Feedback
+    </button>
+    
+    <br><br>
+    
+    <h3 style="color:#ff9800;">
+      Thank You For Your Valuable Feedback ❤️
+    </h3>
+    
+    </div>
+
+
+  <!-- ABOUT -->
+
+  <div class="info-section hidden" id="aboutSection">
+
+    <h1>About Us</h1>
+
+    <p>
+      Welcome to <b>Quiz Master</b>, an interactive and fun learning platform designed for students, quiz lovers, and knowledge seekers. Our mission is to make learning exciting through engaging quizzes from different categories like General Knowledge, Movies, Sports, Science, Technology, and College Education.
+    </p>
+
+    <br>
+
+    <p>
+      Quiz Master helps users improve their knowledge, test their skills, and challenge themselves with timed quizzes and instant results. Whether you want to prepare for competitions, improve your academic knowledge, or simply have fun, our platform provides an easy and enjoyable experience.
+    </p>
+
+    <br>
+
+    <p>
+      Our website includes:
+    </p>
+
+    <ul style="text-align:left; margin-top:15px; line-height:2;">
+
+    <li>✔ User Login & Signup System</li>
+
+    <li>✔ Multiple Quiz Categories</li>
+
+    <li>✔ Live Quiz Timer</li>
+
+    <li>✔ Instant Quiz Results</li>
+
+    <li>✔ Recent Played Quiz History</li>
+
+    <li>✔ Responsive Modern Design</li>
+
+    <li>✔ Easy-to-Use Interface</li>
+
+    </ul>
+
+    <br>
+
+    <p>
+      At Quiz Master, we believe that learning should never be boring. That’s why we continuously work on adding new quizzes, improving features, and creating a better experience for every user.
+    </p>
+
+    <br>
+
+    <h3 style="color:#ff9800;">
+      “Learn Smart, Play Smart!”
+    </h3>
+
+  </div>
+
+
+  <!-- CONTACT -->
+
+  <div class="info-section hidden" id="contactSection">
+
+    <h1>Contact Us</h1>
+
+    <p>
+      We would love to hear from you!  
+      If you have any questions, suggestions, feedback, or technical issues related to Quiz Master, feel free to contact us anytime.
+    </p>
+
+    <br>
+
+    <h3 style="color:#ff9800;">Get In Touch</h3>
+
+    <p>
+      📧 Email: sb670012@gmail.com
+    </p>
+
+    <p>
+      📞 Phone: +91 90981 04970
+    </p>
+
+    <p>
+      📍 Address: Nagod, Madhya Pradesh, India
+    </p>
+
+    <br>
+
+    <h3 style="color:#ff9800;">Why Contact Us?</h3>
+
+    <ul style="text-align:left; line-height:2; margin-top:15px;">
+
+      <li>✔ Report Website Issues</li>
+
+      <li>✔ Suggest New Quiz Categories</li>
+
+      <li>✔ Share Your Feedback</li>
+
+      <li>✔ Ask Any Questions</li>
+
+      <li>✔ Business & Collaboration Queries</li>
+
+    </ul>
+
+    <br>
+
+    <p>
+      Our support team is always ready to help you and improve your experience on Quiz Master.
+    </p>
+
+    <br>
+
+    <h3 style="color:#ff9800;">
+      Thank You For Visiting Quiz Master ❤️
+    </h3>
+  </div>
+
+
+  <!-- DASHBOARD -->
+
+  <div class="dashboard hidden" id="dashboard">
+
+    <h1 id="welcome"></h1>
+
+    <button onclick="showSection('services')">
+      Start Quiz
+    </button>
+
+    <button onclick="logout()">
+      Logout
+    </button>
+
+  </div>
+
+
+  <!-- QUIZ BOX -->
+
+  <div class="quiz-box hidden" id="quizBox">
+
+    <h2 id="question"></h2>
+
+    <div id="answers"></div>
+
+    <p id="timer"></p>
+
+  </div>
+
+
+  <!-- RESULT BOX -->
+
+  <div class="result-box hidden" id="resultBox">
+
+    <h1>Quiz Finished</h1>
+
+    <h2 id="score"></h2>
+
+    <button onclick="restart()">
+      Play Again
+    </button>
+
+  </div>
+
+  <!-- LOGIN PAGE -->
+
+  <div class="page hidden" id="loginPage">
+
+    <div class="auth-container">
+
+      <h1>Welcome Back</h1>
+
+      <p class="auth-subtitle">
+        Login to continue your quiz journey
+      </p>
+
+      <input
+      type="text"
+      id="loginUser"
+      placeholder="Enter Username or Email">
+
+      <input
+      type="password"
+      id="loginPass"
+      placeholder="Enter Password">
+
+      <button onclick="login()">
+        Login
+      </button>
+
+      <div class="auth-divider"></div>
+
+      <p>
+        Don't have an account ?
+      </p>
+
+      <button
+      class="switch-btn"
+      onclick="openSignupPage()">
+
+        Create Your Account
+
+      </button>
+
+      <button
+      class="back-btn"
+      onclick="goHome()">
+
+        Back To Home
+
+      </button>
+
+    </div>
+
+  </div>
+
+
+  <!-- SIGNUP PAGE -->
+
+  <div class="page hidden" id="signupPage">
+
+    <div class="auth-container">
+
+      <h1>Create Account</h1>
+
+      <p class="auth-subtitle">
+        Join Quiz Master Today
+      </p>
+
+      <input
+      type="text"
+      id="signupName"
+      placeholder="Enter Full Name">
+
+      <input
+      type="email"
+      id="signupEmail"
+      placeholder="Enter Email">
+
+      <input
+      type="number"
+      id="signupMobile"
+      placeholder="Enter Mobile Number">
+
+      <input
+      type="text"
+      id="signupUser"
+      placeholder="Create Username">
+
+      <input
+      type="password"
+      id="signupPass"
+      placeholder="Create Password">
+
+      <button onclick="signup()">
+        Create Account
+      </button>
+
+      <div class="auth-divider"></div>
+
+      <p>
+        Already have an account ?
+      </p>
+
+      <button
+      class="switch-btn"
+      onclick="openLoginPage()">
+
+        Login Here
+
+      </button>
+
+      <button
+      class="back-btn"
+      onclick="goHome()">
+
+        Back To Home
+
+      </button>
+
+    </div>
+
+  </div>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
