@@ -13,10 +13,11 @@ const quizData = {
     {
       question: "What is the full form of BCA?",
       answers: [
-        { text: "Bachelor of Computer Applications", correct: true },
+        
         { text: "Basic Computer Academy", correct: false },
         { text: "Bachelor College Academy", correct: false },
-        { text: "Business Computer Applications", correct: false }
+        { text: "Business Computer Applications", correct: false },
+        { text: "Bachelor of Computer Applications", correct: true }
       ]
     },
 
@@ -35,20 +36,22 @@ const quizData = {
     {
       question: 'Which language is mainly used for web development?',
       answers: [
-        {text:'JavaScript', correct:true},
+        
         {text:'Python', correct:false},
         {text:'C++', correct:false},
-        {text:'Java', correct:false}
+        {text:'Java', correct:false},
+        {text:'JavaScript', correct:true}
       ]
     },
 
     {
       question: 'Who is known as the father of computer?',
       answers: [
-        {text:'Charles Babbage', correct:true},
+        
         {text:'Alan Turing', correct:false},
         {text:'Bill Gates', correct:false},
-        {text:'Steve Jobs', correct:false}
+        {text:'Steve Jobs', correct:false},
+        {text:'Charles Babbage', correct:true}
       ]
     },
 
@@ -65,9 +68,10 @@ const quizData = {
     {
       question: 'HTML stands for?',
       answers: [
-        {text:'Hyper Text Markup Language', correct:true},
+        
         {text:'High Text Machine Language', correct:false},
         {text:'Hyperlink Text Markup Language', correct:false},
+        {text:'Hyper Text Markup Language', correct:true},
         {text:'Home Tool Markup Language', correct:false}
       ]
     },
@@ -75,8 +79,9 @@ const quizData = {
     {
       question: 'Which company developed Java?',
       answers: [
-        {text:'Sun Microsystems', correct:true},
+        
         {text:'Microsoft', correct:false},
+        {text:'Sun Microsystems', correct:true},
         {text:'Google', correct:false},
         {text:'IBM', correct:false}
       ]
@@ -95,8 +100,9 @@ const quizData = {
     {
       question: 'Which device is used to input text?',
       answers: [
-        { text: 'Keyboard', correct: true },
+        
         { text: 'Monitor', correct: false },
+        { text: 'Keyboard', correct: true },
         { text: 'Printer', correct: false },
         { text: 'Speaker', correct: false }
       ]
@@ -125,18 +131,20 @@ const quizData = {
     {
       question: 'Which symbol is used for comments in JavaScript?',
       answers: [
-        { text: '//', correct: true },
+        
         { text: '##', correct: false },
         { text: '<!-- -->', correct: false },
-        { text: '**', correct: false }
+        { text: '**', correct: false },
+        { text: '//', correct: true }
       ]
     },
 
     {
       question: 'Which subject studies living organisms?',
       answers: [
-        { text: 'Biology', correct: true },
+        
         { text: 'Physics', correct: false },
+        { text: 'Biology', correct: true },
         { text: 'Chemistry', correct: false },
         { text: 'Math', correct: false }
       ]
@@ -155,9 +163,10 @@ const quizData = {
     {
       question: 'Which network covers a small area?',
       answers: [
-        { text: 'LAN', correct: true },
+        
         { text: 'WAN', correct: false },
         { text: 'MAN', correct: false },
+        { text: 'LAN', correct: true },
         { text: 'PAN', correct: false }
       ]
     },
@@ -175,8 +184,9 @@ const quizData = {
     {
       question: 'Which programming language is object-oriented?',
       answers: [
-        { text: 'Java', correct: true },
+        
         { text: 'HTML', correct: false },
+        { text: 'Java', correct: true },
         { text: 'CSS', correct: false },
         { text: 'SQL', correct: false }
       ]
@@ -185,9 +195,10 @@ const quizData = {
     {
       question: 'Which key refreshes a webpage?',
       answers: [
-        { text: 'F5', correct: true },
+        
         { text: 'F1', correct: false },
         { text: 'F9', correct: false },
+        { text: 'F5', correct: true },
         { text: 'F12', correct: false }
       ]
     },
@@ -195,10 +206,11 @@ const quizData = {
     {
       question: 'Which software is used for coding?',
       answers: [
-        { text: 'VS Code', correct: true },
+        
         { text: 'Chrome', correct: false },
         { text: 'Excel', correct: false },
-        { text: 'PowerPoint', correct: false }
+        { text: 'PowerPoint', correct: false },
+        { text: 'VS Code', correct: true },
       ]
     },
 
@@ -215,29 +227,32 @@ const quizData = {
     {
       question: 'Which company created Android?',
       answers: [
-        { text: 'Google', correct: true },
+        
         { text: 'Apple', correct: false },
         { text: 'Samsung', correct: false },
-        { text: 'Microsoft', correct: false }
+        { text: 'Microsoft', correct: false },
+        { text: 'Google', correct: true },
       ]
     },
 
     {
       question: 'Which programming language is mainly used for Android app development?',
       answers: [
-        { text: 'Java', correct: true },
+        
         { text: 'HTML', correct: false },
         { text: 'CSS', correct: false },
-        { text: 'SQL', correct: false }
+        { text: 'SQL', correct: false },
+        { text: 'Java', correct: true },
       ]
     },
 
     {
       question: 'Which device is used to print documents?',
       answers: [
-        { text: 'Printer', correct: true },
+        
         { text: 'Scanner', correct: false },
         { text: 'Monitor', correct: false },
+        { text: 'Printer', correct: true },
         { text: 'Keyboard', correct: false }
       ]
     },
@@ -245,9 +260,10 @@ const quizData = {
     {
       question: 'Which software is used to create spreadsheets?',
       answers: [
-        { text: 'MS Excel', correct: true },
+        
         { text: 'MS Word', correct: false },
         { text: 'Photoshop', correct: false },
+        { text: 'MS Excel', correct: true },
         { text: 'PowerPoint', correct: false }
       ]
     },
@@ -255,8 +271,9 @@ const quizData = {
     {
       question: 'What does URL stand for?',
       answers: [
-        { text: 'Uniform Resource Locator', correct: true },
+        
         { text: 'Universal Record Link', correct: false },
+        { text: 'Uniform Resource Locator', correct: true },
         { text: 'Uniform Record Locator', correct: false },
         { text: 'Universal Resource Link', correct: false }
       ]
@@ -275,8 +292,9 @@ const quizData = {
     {
       question: 'Which key combination is used to paste copied text?',
       answers: [
-        { text: 'Ctrl + V', correct: true },
+        
         { text: 'Ctrl + C', correct: false },
+        { text: 'Ctrl + V', correct: true },
         { text: 'Ctrl + X', correct: false },
         { text: 'Ctrl + Z', correct: false }
       ]
@@ -285,19 +303,21 @@ const quizData = {
     {
       question: 'Which programming language is used for styling webpages?',
       answers: [
-        { text: 'CSS', correct: true },
+        
         { text: 'HTML', correct: false },
         { text: 'Java', correct: false },
-        { text: 'Python', correct: false }
+        { text: 'Python', correct: false },
+        { text: 'CSS', correct: true }
       ]
     },
 
     {
       question: 'Which component stores data permanently in computer?',
       answers: [
-        { text: 'Hard Disk', correct: true },
+        
         { text: 'RAM', correct: false },
         { text: 'CPU', correct: false },
+        { text: 'Hard Disk', correct: true },
         { text: 'Cache', correct: false }
       ]
     },
@@ -305,8 +325,9 @@ const quizData = {
     {
       question: 'Which networking device distributes internet connection?',
       answers: [
-        { text: 'Router', correct: true },
+        
         { text: 'Monitor', correct: false },
+        { text: 'Router', correct: true },
         { text: 'Speaker', correct: false },
         { text: 'Projector', correct: false }
       ]
@@ -320,20 +341,11 @@ const quizData = {
     {
       question: "Who is known as King Khan?",
       answers: [
-        { text: "Salman Khan", correct: false },
+        
         { text: "Aamir Khan", correct: false },
         { text: "Shah Rukh Khan", correct: true },
+        { text: "Salman Khan", correct: false },
         { text: "Saif Ali Khan", correct: false }
-      ]
-    },
-
-      {
-      question: 'Who is known as King Khan in Bollywood?',
-      answers: [
-        { text: 'Shah Rukh Khan', correct: true },
-        { text: 'Salman Khan', correct: false },
-        { text: 'Aamir Khan', correct: false },
-        { text: 'Saif Ali Khan', correct: false }
       ]
     },
 
@@ -350,8 +362,9 @@ const quizData = {
     {
       question: 'Which movie won Oscar for Best Picture in 2023?',
       answers: [
-        { text: 'Everything Everywhere All at Once', correct: true },
+        
         { text: 'Avatar 2', correct: false },
+        { text: 'Everything Everywhere All at Once', correct: true },
         { text: 'Top Gun Maverick', correct: false },
         { text: 'Elvis', correct: false }
       ]
@@ -360,9 +373,10 @@ const quizData = {
     {
       question: 'Who played Iron Man in Marvel movies?',
       answers: [
-        { text: 'Robert Downey Jr.', correct: true },
+        
         { text: 'Chris Evans', correct: false },
         { text: 'Chris Hemsworth', correct: false },
+        { text: 'Robert Downey Jr.', correct: true },
         { text: 'Mark Ruffalo', correct: false }
       ]
     },
@@ -370,8 +384,9 @@ const quizData = {
     {
       question: 'Which movie features the character Jack Sparrow?',
       answers: [
-        { text: 'Pirates of the Caribbean', correct: true },
+        
         { text: 'Titanic', correct: false },
+        { text: 'Pirates of the Caribbean', correct: true },
         { text: 'Avatar', correct: false },
         { text: 'Harry Potter', correct: false }
       ]
@@ -380,8 +395,9 @@ const quizData = {
     {
       question: 'Who played Joker in The Dark Knight?',
       answers: [
-        { text: 'Heath Ledger', correct: true },
+        
         { text: 'Joaquin Phoenix', correct: false },
+        { text: 'Heath Ledger', correct: true },
         { text: 'Jared Leto', correct: false },
         { text: 'Tom Hardy', correct: false }
       ]
@@ -400,19 +416,21 @@ const quizData = {
     {
       question: 'Who directed Bahubali?',
       answers: [
-        { text: 'S. S. Rajamouli', correct: true },
+        
         { text: 'Karan Johar', correct: false },
         { text: 'Rohit Shetty', correct: false },
-        { text: 'Farah Khan', correct: false }
+        { text: 'Farah Khan', correct: false },
+        { text: 'S. S. Rajamouli', correct: true }
       ]
     },
 
     {
       question: 'Which movie has the song Naatu Naatu?',
       answers: [
-        { text: 'RRR', correct: true },
+        
         { text: 'KGF', correct: false },
         { text: 'Pushpa', correct: false },
+        { text: 'RRR', correct: true },
         { text: 'Leo', correct: false }
       ]
     },
@@ -430,8 +448,9 @@ const quizData = {
     {
       question: 'Which movie is about dinosaurs?',
       answers: [
-        { text: 'Jurassic Park', correct: true },
+        
         { text: 'Titanic', correct: false },
+        { text: 'Jurassic Park', correct: true },
         { text: 'Frozen', correct: false },
         { text: 'Avatar', correct: false }
       ]
@@ -458,10 +477,22 @@ const quizData = {
     },
 
     {
+      question: 'Who is known as King Khan in Bollywood?',
+      answers: [
+        
+        { text: 'Salman Khan', correct: false },
+        { text: 'Shah Rukh Khan', correct: true },
+        { text: 'Aamir Khan', correct: false },
+        { text: 'Saif Ali Khan', correct: false }
+      ]
+    },
+
+    {
       question: 'Which movie won Best Picture Oscar in 1998?',
       answers: [
-        { text: 'Titanic', correct: true },
+        
         { text: 'Avatar', correct: false },
+        { text: 'Titanic', correct: true },
         { text: 'Gladiator', correct: false },
         { text: 'Inception', correct: false }
       ]
@@ -470,9 +501,10 @@ const quizData = {
     {
       question: 'Which superhero uses a hammer?',
       answers: [
-        { text: 'Thor', correct: true },
+        
         { text: 'Batman', correct: false },
         { text: 'Superman', correct: false },
+        { text: 'Thor', correct: true },
         { text: 'Flash', correct: false }
       ]
     },
@@ -480,9 +512,10 @@ const quizData = {
     {
       question: 'Who played Batman in The Batman (2022)?',
       answers: [
-        { text: 'Robert Pattinson', correct: true },
+        
         { text: 'Ben Affleck', correct: false },
         { text: 'Christian Bale', correct: false },
+        { text: 'Robert Pattinson', correct: true },
         { text: 'Henry Cavill', correct: false }
       ]
     },
@@ -490,8 +523,9 @@ const quizData = {
     {
       question: 'Which movie features the character Elsa?',
       answers: [
-        { text: 'Frozen', correct: true },
+        
         { text: 'Moana', correct: false },
+        { text: 'Frozen', correct: true },
         { text: 'Encanto', correct: false },
         { text: 'Brave', correct: false }
       ]
@@ -500,8 +534,9 @@ const quizData = {
     {
       question: 'Who directed Titanic?',
       answers: [
-        { text: 'James Cameron', correct: true },
+        
         { text: 'Christopher Nolan', correct: false },
+        { text: 'James Cameron', correct: true },
         { text: 'Steven Spielberg', correct: false },
         { text: 'Ridley Scott', correct: false }
       ]
@@ -510,19 +545,21 @@ const quizData = {
     {
       question: 'Which actor played Doctor Strange?',
       answers: [
-        { text: 'Benedict Cumberbatch', correct: true },
+        
         { text: 'Chris Evans', correct: false },
         { text: 'Tom Holland', correct: false },
-        { text: 'Chris Pratt', correct: false }
+        { text: 'Chris Pratt', correct: false },
+        { text: 'Benedict Cumberbatch', correct: true },
       ]
     },
 
     {
       question: 'Which movie series includes Hogwarts?',
       answers: [
-        { text: 'Harry Potter', correct: true },
+        
         { text: 'Lord of the Rings', correct: false },
         { text: 'Avengers', correct: false },
+        { text: 'Harry Potter', correct: true },
         { text: 'Star Wars', correct: false }
       ]
     },
@@ -540,8 +577,9 @@ const quizData = {
     {
       question: 'Which Bollywood movie features the character Chulbul Pandey?',
       answers: [
-        { text: 'Dabangg', correct: true },
+        
         { text: 'Singham', correct: false },
+        { text: 'Dabangg', correct: true },
         { text: 'War', correct: false },
         { text: 'Kick', correct: false }
       ]
@@ -550,8 +588,9 @@ const quizData = {
     {
       question: 'Who directed the movie Avatar?',
       answers: [
-        { text: 'James Cameron', correct: true },
+        
         { text: 'Christopher Nolan', correct: false },
+        { text: 'James Cameron', correct: true },
         { text: 'Steven Spielberg', correct: false },
         { text: 'Ridley Scott', correct: false }
       ]
@@ -560,8 +599,9 @@ const quizData = {
     {
       question: 'Which actor played Captain America in Marvel movies?',
       answers: [
-        { text: 'Chris Evans', correct: true },
+        
         { text: 'Chris Hemsworth', correct: false },
+        { text: 'Chris Evans', correct: true },
         { text: 'Robert Downey Jr.', correct: false },
         { text: 'Tom Holland', correct: false }
       ]
@@ -580,9 +620,10 @@ const quizData = {
     {
       question: 'Who played the role of Batman in The Dark Knight trilogy?',
       answers: [
-        { text: 'Christian Bale', correct: true },
+        
         { text: 'Ben Affleck', correct: false },
         { text: 'Robert Pattinson', correct: false },
+        { text: 'Christian Bale', correct: true },
         { text: 'George Clooney', correct: false }
       ]
     },
@@ -590,8 +631,9 @@ const quizData = {
     {
       question: 'Which Bollywood actor is known as Mr. Perfectionist?',
       answers: [
-        { text: 'Aamir Khan', correct: true },
+        
         { text: 'Salman Khan', correct: false },
+        { text: 'Aamir Khan', correct: true },
         { text: 'Shah Rukh Khan', correct: false },
         { text: 'Akshay Kumar', correct: false }
       ]
@@ -610,8 +652,9 @@ const quizData = {
     {
       question: 'Which movie features the wizard school Hogwarts?',
       answers: [
-        { text: 'Harry Potter', correct: true },
+       
         { text: 'Lord of the Rings', correct: false },
+         { text: 'Harry Potter', correct: true },
         { text: 'Avengers', correct: false },
         { text: 'Chronicles of Narnia', correct: false }
       ]
@@ -622,9 +665,10 @@ const quizData = {
     {
       question: "What is the capital of India?",
       answers: [
-        { text: "Delhi", correct: true },
+        
         { text: "Mumbai", correct: false },
         { text: "Kolkata", correct: false },
+        { text: "Delhi", correct: true },
         { text: "Chennai", correct: false }
       ]
     },
@@ -632,10 +676,11 @@ const quizData = {
     {
       question: 'What is the capital of India?',
       answers: [
-        { text: 'New Delhi', correct: true },
+        
         { text: 'Mumbai', correct: false },
         { text: 'Kolkata', correct: false },
-        { text: 'Chennai', correct: false }
+        { text: 'Chennai', correct: false },
+        { text: 'New Delhi', correct: true }
       ]
     },
 
@@ -652,8 +697,9 @@ const quizData = {
     {
       question: 'Who is known as the Father of the Nation in India?',
       answers: [
-        { text: 'Mahatma Gandhi', correct: true },
+        
         { text: 'Jawaharlal Nehru', correct: false },
+        { text: 'Mahatma Gandhi', correct: true },
         { text: 'Subhash Chandra Bose', correct: false },
         { text: 'Bhagat Singh', correct: false }
       ]
@@ -662,9 +708,10 @@ const quizData = {
     {
       question: 'Which planet is known as the Red Planet?',
       answers: [
-        { text: 'Mars', correct: true },
+        
         { text: 'Venus', correct: false },
         { text: 'Jupiter', correct: false },
+        { text: 'Mars', correct: true },
         { text: 'Mercury', correct: false }
       ]
     },
@@ -672,8 +719,9 @@ const quizData = {
     {
       question: 'What is the national animal of India?',
       answers: [
-        { text: 'Tiger', correct: true },
+        
         { text: 'Lion', correct: false },
+        { text: 'Tiger', correct: true },
         { text: 'Elephant', correct: false },
         { text: 'Leopard', correct: false }
       ]
@@ -692,9 +740,10 @@ const quizData = {
     {
       question: 'Which country is known as the Land of Rising Sun?',
       answers: [
-        { text: 'Japan', correct: true },
+        
         { text: 'China', correct: false },
         { text: 'Thailand', correct: false },
+        { text: 'Japan', correct: true },
         { text: 'South Korea', correct: false }
       ]
     },
@@ -712,8 +761,9 @@ const quizData = {
     {
       question: 'Which is the smallest planet in the solar system?',
       answers: [
-        { text: 'Mercury', correct: true },
+        
         { text: 'Mars', correct: false },
+        { text: 'Mercury', correct: true },
         { text: 'Venus', correct: false },
         { text: 'Pluto', correct: false }
       ]
@@ -722,9 +772,10 @@ const quizData = {
     {
       question: 'What is the national bird of India?',
       answers: [
-        { text: 'Peacock', correct: true },
+        
         { text: 'Parrot', correct: false },
         { text: 'Sparrow', correct: false },
+        { text: 'Peacock', correct: true },
         { text: 'Crow', correct: false }
       ]
     },
@@ -732,18 +783,20 @@ const quizData = {
     {
       question: 'Who wrote the Indian National Anthem?',
       answers: [
-        { text: 'Rabindranath Tagore', correct: true },
+       
         { text: 'Bankim Chandra Chatterjee', correct: false },
         { text: 'Sarojini Naidu', correct: false },
-        { text: 'Premchand', correct: false }
+        { text: 'Premchand', correct: false },
+        { text: 'Rabindranath Tagore', correct: true }
       ]
     },
 
     {
       question: 'Which gas do humans need to breathe?',
       answers: [
-        { text: 'Oxygen', correct: true },
+        
         { text: 'Carbon Dioxide', correct: false },
+        { text: 'Oxygen', correct: true },
         { text: 'Nitrogen', correct: false },
         { text: 'Hydrogen', correct: false }
       ]
@@ -752,8 +805,9 @@ const quizData = {
     {
       question: 'Which is the longest river in the world?',
       answers: [
-        { text: 'Nile', correct: true },
+        
         { text: 'Amazon', correct: false },
+        { text: 'Nile', correct: true },
         { text: 'Ganga', correct: false },
         { text: 'Yamuna', correct: false }
       ]
@@ -762,10 +816,11 @@ const quizData = {
     {
       question: 'Which festival is called Festival of Lights?',
       answers: [
-        { text: 'Diwali', correct: true },
+        
         { text: 'Holi', correct: false },
         { text: 'Eid', correct: false },
-        { text: 'Christmas', correct: false }
+        { text: 'Christmas', correct: false },
+        { text: 'Diwali', correct: true }
       ]
     },
 
@@ -792,8 +847,9 @@ const quizData = {
     {
       question: 'What is the currency of India?',
       answers: [
-        { text: 'Rupee', correct: true },
+        
         { text: 'Dollar', correct: false },
+        { text: 'Rupee', correct: true },
         { text: 'Euro', correct: false },
         { text: 'Yen', correct: false }
       ]
@@ -802,9 +858,10 @@ const quizData = {
     {
       question: 'Which day is celebrated as Independence Day in India?',
       answers: [
-        { text: '15 August', correct: true },
+       
         { text: '26 January', correct: false },
         { text: '2 October', correct: false },
+         { text: '15 August', correct: true },
         { text: '14 November', correct: false }
       ]
     },
@@ -822,8 +879,9 @@ const quizData = {
     {
       question: 'Who was the first Prime Minister of India?',
       answers: [
-        { text: 'Jawaharlal Nehru', correct: true },
+        
         { text: 'Mahatma Gandhi', correct: false },
+        { text: 'Jawaharlal Nehru', correct: true },
         { text: 'Sardar Patel', correct: false },
         { text: 'Rajendra Prasad', correct: false }
       ]
@@ -832,10 +890,11 @@ const quizData = {
     {
       question: 'Which is the largest desert in the world?',
       answers: [
-        { text: 'Sahara Desert', correct: true },
+        
         { text: 'Gobi Desert', correct: false },
         { text: 'Thar Desert', correct: false },
-        { text: 'Kalahari Desert', correct: false }
+        { text: 'Kalahari Desert', correct: false },
+        { text: 'Sahara Desert', correct: true }
       ]
     },
 
@@ -852,8 +911,9 @@ const quizData = {
     {
       question: 'Which is the national flower of India?',
       answers: [
-        { text: 'Lotus', correct: true },
+        
         { text: 'Rose', correct: false },
+        { text: 'Lotus', correct: true },
         { text: 'Sunflower', correct: false },
         { text: 'Lily', correct: false }
       ]
@@ -862,8 +922,9 @@ const quizData = {
     {
       question: 'Which planet is known as the Blue Planet?',
       answers: [
-        { text: 'Earth', correct: true },
+        
         { text: 'Mars', correct: false },
+        { text: 'Earth', correct: true },
         { text: 'Venus', correct: false },
         { text: 'Jupiter', correct: false }
       ]
@@ -872,19 +933,21 @@ const quizData = {
     {
       question: 'Who discovered gravity?',
       answers: [
-        { text: 'Isaac Newton', correct: true },
+        
         { text: 'Albert Einstein', correct: false },
         { text: 'Galileo', correct: false },
-        { text: 'Thomas Edison', correct: false }
+        { text: 'Thomas Edison', correct: false },
+        { text: 'Isaac Newton', correct: true }
       ]
     },
 
     {
       question: 'Which country has the largest population in the world?',
       answers: [
-        { text: 'India', correct: true },
+        
         { text: 'China', correct: false },
         { text: 'USA', correct: false },
+        { text: 'India', correct: true },
         { text: 'Russia', correct: false }
       ]
     },
@@ -902,8 +965,9 @@ const quizData = {
     {
       question: 'Which is the longest river in India?',
       answers: [
-        { text: 'Ganga', correct: true },
+        
         { text: 'Yamuna', correct: false },
+        { text: 'Ganga', correct: true },
         { text: 'Godavari', correct: false },
         { text: 'Brahmaputra', correct: false }
       ]
@@ -912,8 +976,9 @@ const quizData = {
     {
       question: 'Which country gifted the Statue of Liberty to USA?',
       answers: [
-        { text: 'France', correct: true },
+        
         { text: 'England', correct: false },
+        { text: 'France', correct: true },
         { text: 'Germany', correct: false },
         { text: 'Canada', correct: false }
       ]
@@ -924,10 +989,11 @@ const quizData = {
     {
       question: "How many players are there in cricket team?",
       answers: [
-        { text: "11", correct: true },
+        
         { text: "10", correct: false },
         { text: "12", correct: false },
-        { text: "9", correct: false }
+        { text: "9", correct: false },
+        { text: "11", correct: true }
       ]
     },
 
@@ -944,9 +1010,10 @@ const quizData = {
     {
       question: 'Which country won the FIFA World Cup 2022?',
       answers: [
-        { text: 'Argentina', correct: true },
+        
         { text: 'Brazil', correct: false },
         { text: 'France', correct: false },
+        { text: 'Argentina', correct: true },
         { text: 'Germany', correct: false }
       ]
     },
@@ -954,10 +1021,11 @@ const quizData = {
     {
       question: 'Who is known as the God of Cricket?',
       answers: [
-        { text: 'Sachin Tendulkar', correct: true },
+        
         { text: 'Virat Kohli', correct: false },
         { text: 'MS Dhoni', correct: false },
-        { text: 'Rohit Sharma', correct: false }
+        { text: 'Rohit Sharma', correct: false },
+        { text: 'Sachin Tendulkar', correct: true }
       ]
     },
 
@@ -974,9 +1042,10 @@ const quizData = {
     {
       question: 'Which country hosted FIFA World Cup 2022?',
       answers: [
-        { text: 'Qatar', correct: true },
+        
         { text: 'Russia', correct: false },
         { text: 'Brazil', correct: false },
+        { text: 'Qatar', correct: true },
         { text: 'USA', correct: false }
       ]
     },
@@ -984,9 +1053,10 @@ const quizData = {
     {
       question: 'Who won ICC Cricket World Cup 2011?',
       answers: [
-        { text: 'India', correct: true },
+        
         { text: 'Australia', correct: false },
         { text: 'England', correct: false },
+        { text: 'India', correct: true },
         { text: 'Pakistan', correct: false }
       ]
     },
@@ -1004,19 +1074,21 @@ const quizData = {
     {
       question: 'Which sport is played at Wimbledon?',
       answers: [
-        { text: 'Tennis', correct: true },
+        
         { text: 'Football', correct: false },
         { text: 'Golf', correct: false },
-        { text: 'Basketball', correct: false }
+        { text: 'Basketball', correct: false },
+        { text: 'Tennis', correct: true }
       ]
     },
 
     {
       question: 'Who is known as Flying Sikh?',
       answers: [
-        { text: 'Milkha Singh', correct: true },
+        
         { text: 'Sachin Tendulkar', correct: false },
         { text: 'Dhoni', correct: false },
+        { text: 'Milkha Singh', correct: true },
         { text: 'Virat Kohli', correct: false }
       ]
     },
@@ -1024,8 +1096,9 @@ const quizData = {
     {
       question: 'How often are the Olympic Games held?',
       answers: [
-        { text: 'Every 4 years', correct: true },
+        
         { text: 'Every 2 years', correct: false },
+        { text: 'Every 4 years', correct: true },
         { text: 'Every year', correct: false },
         { text: 'Every 5 years', correct: false }
       ]
@@ -1034,18 +1107,20 @@ const quizData = {
     {
       question: 'Which country invented cricket?',
       answers: [
-        { text: 'England', correct: true },
+        
         { text: 'India', correct: false },
         { text: 'Australia', correct: false },
-        { text: 'South Africa', correct: false }
+        { text: 'South Africa', correct: false },
+        { text: 'England', correct: true }
       ]
     },
 
     {
       question: 'Who won the FIFA World Cup 2018?',
       answers: [
-        { text: 'France', correct: true },
+        
         { text: 'Brazil', correct: false },
+        { text: 'France', correct: true },
         { text: 'Argentina', correct: false },
         { text: 'Germany', correct: false }
       ]
@@ -1064,8 +1139,9 @@ const quizData = {
     {
       question: 'Who is called Captain Cool in cricket?',
       answers: [
-        { text: 'MS Dhoni', correct: true },
+        
         { text: 'Virat Kohli', correct: false },
+        { text: 'MS Dhoni', correct: true },
         { text: 'Rohit Sharma', correct: false },
         { text: 'Sachin Tendulkar', correct: false }
       ]
@@ -1074,19 +1150,21 @@ const quizData = {
     {
       question: 'Which country has won most Cricket World Cups?',
       answers: [
-        { text: 'Australia', correct: true },
+        
         { text: 'India', correct: false },
         { text: 'England', correct: false },
-        { text: 'Pakistan', correct: false }
+        { text: 'Pakistan', correct: false },
+        { text: 'Australia', correct: true }
       ]
     },
 
     {
       question: 'Which sport is associated with NBA?',
       answers: [
-        { text: 'Basketball', correct: true },
+        
         { text: 'Baseball', correct: false },
         { text: 'Football', correct: false },
+        { text: 'Basketball', correct: true },
         { text: 'Tennis', correct: false }
       ]
     },
@@ -1094,8 +1172,9 @@ const quizData = {
     {
       question: 'Who won the Ballon d’Or 2023?',
       answers: [
-        { text: 'Lionel Messi', correct: true },
+        
         { text: 'Cristiano Ronaldo', correct: false },
+        { text: 'Lionel Messi', correct: true },
         { text: 'Mbappe', correct: false },
         { text: 'Haaland', correct: false }
       ]
@@ -1104,8 +1183,9 @@ const quizData = {
     {
       question: 'Which country hosted the Olympics 2021?',
       answers: [
-        { text: 'Japan', correct: true },
+        
         { text: 'China', correct: false },
+        { text: 'Japan', correct: true },
         { text: 'USA', correct: false },
         { text: 'France', correct: false }
       ]
@@ -1124,8 +1204,9 @@ const quizData = {
     {
       question: 'Who is the highest run scorer in international cricket?',
       answers: [
-        { text: 'Sachin Tendulkar', correct: true },
+       
         { text: 'Virat Kohli', correct: false },
+         { text: 'Sachin Tendulkar', correct: true },
         { text: 'Ricky Ponting', correct: false },
         { text: 'Kumar Sangakkara', correct: false }
       ]
@@ -1134,9 +1215,10 @@ const quizData = {
     {
       question: 'Which country won the ICC Cricket World Cup 2023?',
       answers: [
-        { text: 'Australia', correct: true },
+        
         { text: 'India', correct: false },
         { text: 'England', correct: false },
+        { text: 'Australia', correct: true },
         { text: 'New Zealand', correct: false }
       ]
     },
@@ -1144,10 +1226,11 @@ const quizData = {
     {
       question: 'Who is known as the King of Football?',
       answers: [
-        { text: 'Pele', correct: true },
+        
         { text: 'Lionel Messi', correct: false },
         { text: 'Cristiano Ronaldo', correct: false },
-        { text: 'Neymar', correct: false }
+        { text: 'Neymar', correct: false },
+        { text: 'Pele', correct: true }
       ]
     },
 
@@ -1164,8 +1247,9 @@ const quizData = {
     {
       question: 'Who has won the most Grand Slam titles in men tennis?',
       answers: [
-        { text: 'Novak Djokovic', correct: true },
+        
         { text: 'Roger Federer', correct: false },
+        { text: 'Novak Djokovic', correct: true },
         { text: 'Rafael Nadal', correct: false },
         { text: 'Andy Murray', correct: false }
       ]
@@ -1174,8 +1258,9 @@ const quizData = {
     {
       question: 'Which country is famous for the martial art Karate?',
       answers: [
-        { text: 'Japan', correct: true },
+       
         { text: 'China', correct: false },
+         { text: 'Japan', correct: true },
         { text: 'Thailand', correct: false },
         { text: 'Korea', correct: false }
       ]
@@ -1184,9 +1269,10 @@ const quizData = {
     {
       question: 'Which Indian player is called Hitman in cricket?',
       answers: [
-        { text: 'Rohit Sharma', correct: true },
+        
         { text: 'Virat Kohli', correct: false },
         { text: 'KL Rahul', correct: false },
+        { text: 'Rohit Sharma', correct: true },
         { text: 'Hardik Pandya', correct: false }
       ]
     },
@@ -1204,9 +1290,10 @@ const quizData = {
     {
       question: 'Which country hosted the Cricket World Cup 2023?',
       answers: [
-        { text: 'India', correct: true },
+        
         { text: 'Australia', correct: false },
         { text: 'England', correct: false },
+        { text: 'India', correct: true },
         { text: 'South Africa', correct: false }
       ]
     },
@@ -1214,8 +1301,9 @@ const quizData = {
     {
       question: 'How many rings are there in the Olympic symbol?',
       answers: [
-        { text: '5', correct: true },
+        
         { text: '4', correct: false },
+        { text: '5', correct: true },
         { text: '6', correct: false },
         { text: '7', correct: false }
       ]
@@ -1236,18 +1324,20 @@ const quizData = {
     {
       question: 'Which company developed the Android operating system?',
       answers: [
-        { text: 'Google', correct: true },
+        
         { text: 'Apple', correct: false },
         { text: 'Microsoft', correct: false },
-        { text: 'Samsung', correct: false }
+        { text: 'Samsung', correct: false },
+        { text: 'Google', correct: true }
       ]
     },
 
     {
       question: 'What does CPU stand for?',
       answers: [
-        { text: 'Central Processing Unit', correct: true },
+        
         { text: 'Computer Processing Unit', correct: false },
+        { text: 'Central Processing Unit', correct: true },
         { text: 'Central Program Unit', correct: false },
         { text: 'Control Processing Unit', correct: false }
       ]
@@ -1256,10 +1346,11 @@ const quizData = {
     {
       question: 'Which programming language is mainly used for web development?',
       answers: [
-        { text: 'JavaScript', correct: true },
+        
         { text: 'C++', correct: false },
         { text: 'Java', correct: false },
-        { text: 'Python', correct: false }
+        { text: 'Python', correct: false },
+        { text: 'JavaScript', correct: true }
       ]
     },
 
@@ -1276,9 +1367,10 @@ const quizData = {
     {
       question: 'HTML is used for?',
       answers: [
-        { text: 'Creating webpage structure', correct: true },
+        
         { text: 'Database management', correct: false },
         { text: 'Photo editing', correct: false },
+        { text: 'Creating webpage structure', correct: true },
         { text: 'Gaming', correct: false }
       ]
     },
@@ -1286,9 +1378,10 @@ const quizData = {
     {
       question: 'Which company owns YouTube?',
       answers: [
-        { text: 'Google', correct: true },
+        
         { text: 'Meta', correct: false },
         { text: 'Amazon', correct: false },
+        { text: 'Google', correct: true },
         { text: 'Microsoft', correct: false }
       ]
     },
@@ -1296,10 +1389,11 @@ const quizData = {
     {
       question: 'Which storage device stores data permanently?',
       answers: [
-        { text: 'Hard Disk', correct: true },
+        
         { text: 'RAM', correct: false },
         { text: 'Cache', correct: false },
-        { text: 'Register', correct: false }
+        { text: 'Register', correct: false },
+        { text: 'Hard Disk', correct: true },
       ]
     },
 
@@ -1316,9 +1410,10 @@ const quizData = {
     {
       question: 'Which company created Windows operating system?',
       answers: [
-        { text: 'Microsoft', correct: true },
+       
         { text: 'Apple', correct: false },
         { text: 'Google', correct: false },
+         { text: 'Microsoft', correct: true },
         { text: 'IBM', correct: false }
       ]
     },
@@ -1326,8 +1421,9 @@ const quizData = {
     {
       question: 'What is the full form of RAM?',
       answers: [
-        { text: 'Random Access Memory', correct: true },
+        
         { text: 'Read Access Memory', correct: false },
+        { text: 'Random Access Memory', correct: true },
         { text: 'Run Access Memory', correct: false },
         { text: 'Rapid Access Memory', correct: false }
       ]
@@ -1336,8 +1432,9 @@ const quizData = {
     {
       question: 'Which tag is used to insert images in HTML?',
       answers: [
-        { text: 'img', correct: true },
+        
         { text: 'image', correct: false },
+        { text: 'img', correct: true },
         { text: 'src', correct: false },
         { text: 'pic', correct: false }
       ]
@@ -1346,9 +1443,10 @@ const quizData = {
     {
       question: 'Which company developed the iPhone?',
       answers: [
-        { text: 'Apple', correct: true },
+        
         { text: 'Samsung', correct: false },
         { text: 'Google', correct: false },
+        { text: 'Apple', correct: true },
         { text: 'Nokia', correct: false }
       ]
     },
@@ -1366,8 +1464,9 @@ const quizData = {
     {
       question: 'Which programming language is object-oriented?',
       answers: [
-        { text: 'Java', correct: true },
+        
         { text: 'HTML', correct: false },
+        { text: 'Java', correct: true },
         { text: 'CSS', correct: false },
         { text: 'SQL', correct: false }
       ]
@@ -1376,10 +1475,11 @@ const quizData = {
     {
       question: 'Which software is used to browse the internet?',
       answers: [
-        { text: 'Chrome', correct: true },
+        
         { text: 'Photoshop', correct: false },
         { text: 'Excel', correct: false },
-        { text: 'PowerPoint', correct: false }
+        { text: 'PowerPoint', correct: false },
+        { text: 'Chrome', correct: true }
       ]
     },
 
@@ -1396,9 +1496,10 @@ const quizData = {
     {
       question: 'Which company created ChatGPT?',
       answers: [
-        { text: 'OpenAI', correct: true },
+        
         { text: 'Google', correct: false },
         { text: 'Meta', correct: false },
+        { text: 'OpenAI', correct: true },
         { text: 'Microsoft', correct: false }
       ]
     },
@@ -1406,8 +1507,9 @@ const quizData = {
     {
       question: 'Which part of computer shows output?',
       answers: [
-        { text: 'Monitor', correct: true },
+       
         { text: 'Keyboard', correct: false },
+        { text: 'Monitor', correct: true },
         { text: 'Mouse', correct: false },
         { text: 'CPU', correct: false }
       ]
@@ -1426,9 +1528,10 @@ const quizData = {
     {
       question: 'Which key is used to refresh a webpage?',
       answers: [
-        { text: 'F5', correct: true },
+        
         { text: 'F1', correct: false },
         { text: 'F10', correct: false },
+        { text: 'F5', correct: true },
         { text: 'F12', correct: false }
       ]
     },
@@ -1436,9 +1539,10 @@ const quizData = {
     {
       question: 'Which company developed the Windows operating system?',
       answers: [
-        { text: 'Microsoft', correct: true },
+        
         { text: 'Apple', correct: false },
         { text: 'Google', correct: false },
+        { text: 'Microsoft', correct: true },
         { text: 'IBM', correct: false }
       ]
     },
@@ -1446,8 +1550,9 @@ const quizData = {
     {
       question: 'Which programming language is known as the language of the web?',
       answers: [
-        { text: 'JavaScript', correct: true },
+        
         { text: 'Python', correct: false },
+        { text: 'JavaScript', correct: true },
         { text: 'C++', correct: false },
         { text: 'Java', correct: false }
       ]
@@ -1456,28 +1561,31 @@ const quizData = {
     {
       question: 'What does USB stand for?',
       answers: [
-        { text: 'Universal Serial Bus', correct: true },
+       
         { text: 'Universal System Bus', correct: false },
         { text: 'United Serial Bus', correct: false },
-        { text: 'Unified Service Bus', correct: false }
+        { text: 'Unified Service Bus', correct: false },
+        { text: 'Universal Serial Bus', correct: true }
       ]
     },
 
     {
       question: 'Which device is used to connect a computer to the internet wirelessly?',
       answers: [
-        { text: 'Router', correct: true },
+        
         { text: 'Printer', correct: false },
         { text: 'Scanner', correct: false },
-        { text: 'Speaker', correct: false }
+        { text: 'Speaker', correct: false },
+        { text: 'Router', correct: true }
       ]
     },
 
     {
       question: 'Which company created the iPhone?',
       answers: [
-        { text: 'Apple', correct: true },
+        
         { text: 'Samsung', correct: false },
+        { text: 'Apple', correct: true },
         { text: 'Google', correct: false },
         { text: 'Nokia', correct: false }
       ]
